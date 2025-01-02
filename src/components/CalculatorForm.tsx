@@ -7,7 +7,7 @@ const addInput = () => {
 
 export default function CalculatorForm() {
   return (
-    <div className="grid grid-cols-4 justify-center bg-black rounded-md">
+    <div className="grid grid-cols-4 justify-center bg-gradient-to-b from-neutral-600 to-blue-300 rounded-md">
         <Button label="1" parentMethod={()=>addInput()}/>
         <Button label="2" parentMethod={()=>addInput()}/>
         <Button label="3" parentMethod={()=>addInput()}/>
