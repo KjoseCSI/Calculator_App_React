@@ -4,7 +4,7 @@ import LoginForm from "./LoginForm"
 
 export default function LoginPage() {
 
-const { state, showEmail,logingEmailWithPassword, logout } = useAuthContext()
+const { state, showEmail, logout } = useAuthContext()
 
 if (state === 2) {
   return(
