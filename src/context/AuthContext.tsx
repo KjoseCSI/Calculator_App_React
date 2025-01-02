@@ -30,7 +30,7 @@ export const AuthProvider = ({ children }: PropsWithChildren ) => {
     }
 
     const logout = () => {
-        setState(StateTest.closed)
+        setState(StateTest.cheking)
     }
 
   return (
