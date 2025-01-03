@@ -7,14 +7,7 @@ export default function LoginPage() {
 
 const { state, showEmail, logout } = useAuthContext()
 
-if (state === 2) {
-  return(
-    <>
-      <h3>Te deslogiaron</h3>
-      
-    </>
-  )
-}
+
 if (state === 1) {
   return(
     <>
@@ -28,9 +21,7 @@ if (state === 1) {
 }
   return (
     <>
-
     <LoginForm/>
-
     </>
   )
 }

@@ -10,7 +10,7 @@ export default function LoginForm() {
 
     const {logingEmailWithPassword} = useAuthContext()
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e:any) => {
         e.preventDefault()
 
         if (email === "" ||  password === "" ) {
